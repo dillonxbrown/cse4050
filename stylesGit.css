@@ -1,0 +1,37 @@
+
+*{
+    
+    box-sizing:border-box;
+    color: #777;
+}
+
+.my-name{
+    color: black;
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}
+
+
+.container{
+    max-width: 900px;
+    margin:0 auto;
+    padding: 0 1.5em;
+}
+.main-header{
+    background-color: rgba (0,0,0,.6);
+    padding-bottom: 30px;
+}
+.section-header{
+    font-size: 2em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:normal;
+    text-align:center;
+}
+.about-text{
+    font-size:2em;
+    text-align:left;
+}
+
