@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>
+        CSE 4050 API Assignment
+    </title>
+</head>
+
+<div id = "sunrise"></div>
+<div id = "sunset"></div>
+<!--<div id = "forecast"></div> -->
+
+
+<script>
+   fetch("https://api.sunrise-sunset.org/json?lat=34.1283&lng=-117.2087&formatted=0")
+   .then(response => response.json())
+   .then(data => {
+        const d = new Date(data.results.sunrise);
+        document.getElementById("sunrise").innerHTML = 
+        "Sunrise today in Highland, CA is: " + d.getHours() + ":" + 
+        d.getMinutes() + " AM";
+   })
+    
+
+    fetch("https://api.sunrise-sunset.org/json?lat=34.1283&lng=-117.2087&formatted=0")
+    .then(response => response.json())
+    .then(data => {
+         const d2 = new Date(data.results.sunset);
+         document.getElementById("sunset").innerHTML = 
+         "Sunset today in Highland, CA is: " + d2.getHours() + ":" + 
+         d2.getMinutes() + " PM";
+    })
+ </script>
+
+
+
+</html>
