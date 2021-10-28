@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital@1&family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+*{
+    font-family: Quantico;
+}
+.navbar{
+    height: 100px ;
+}
+.navbar-brand{
+    font-size: 50px !important;
+    font-family: Quantico;
+}
+
+.navbar{
+    height: 100px ;
+}
+.navbar-brand{
+    font-size: 50px !important;
+    font-family: Quantico;
+}
+.navbar-nav{
+    font-size:20px;
+    font-family: 'Quantico', sans-serif;
+}
+.nav-item{
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+    background-image: url("background.webp");
+    background-color: #787A91;
+  }
+  
+
+.signup-box {
+    width: 320px;
+    height: 520px;
+    background: #343a40;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0 0 20px;
+   
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .signup-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .signup-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+
+  input[type="text"], input[type="password"] {
+    margin-bottom: 10px;
+    padding:2px;
+    width:220px;
+    height:32px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+
+
+ .btn {
+    border: none;
+    width: 100%;
+    outline: none;
+    height: 40px;
+    background-color: #eceaeb !important;
+    box-shadow: 0 0 20px #eceaeb;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: transparent;
+    border-color: #ffc107;
+    border-style: solid;
+}

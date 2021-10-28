@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital@1&family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+*{
+    font-family: Quantico;
+}
+.navbar{
+    height: 100px ;
+}
+.navbar-brand{
+    font-size: 50px !important;
+    
+}
+
+.navbar{
+    height: 100px ;
+}
+.navbar-brand{
+    font-size: 50px !important;
+   
+}
+.navbar-nav{
+    font-size:20px;
+    
+}
+.nav-item{
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+    background-image: url("background.webp");
+    background-color: #787A91;
+  }
+  
+  /* Avatar image */
+  img {
+    height: 300%;
+    width: 45%;
+    margin-top: 7%;
+  }
+  
+  .img-logo {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    margin-left: 44%;
+    margin-top: 0;
+  }
+  
+  .login-box {
+    width: 320px;
+    height: 450px;
+    background: #343a40;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 80px 30px;
+  }
+  
+  /* Avatar image */
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0 0 20px;
+   
+    text-align: center;
+    font-size: 22px;
+  }
+  
+ 
+  
+  .login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"], input[type="password"] {
+   
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  #button-container {
+    padding-bottom: 25px;
+  }
+
+  button {
+    border: none;
+    width: 100%;
+    outline: none;
+    height: 40px;
+    background-color: #eceaeb !important;
+    box-shadow: 0 0 20px #eceaeb;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: transparent;
+    border-color: #ffc107;
+    border-style: solid;
+  }
+
+  
+  .login-box a{
+    text-decoration: none;
+    padding: 2px;
+    font-size: 13px;
+    line-height: 20px;
+    color: white;
+  }
+  
+  .login-box a:hover {
+    color: #ffc107;
+  }
+  
