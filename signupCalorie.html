@@ -5,6 +5,7 @@
     <link href = "signupCalorie.css" rel = "stylesheet" type = "text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <header>
+        <!---
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="indexCalorie.html">Cal Pal</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,30 +33,36 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
-                    </li>
+                </ul>
                     
                 </div>
             </nav>
+        -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="indexCalorie.html">Cal Pal</a>
+        </nav>
 </head>
 <body>
+  
     <div class = "signup-box">
-        
-            <h1> Sign Up </h1>
-                <p>First Name</p>
-                <input type="text" id="firstname" placeholder="Enter First Name">
-                <p>Last Name</p>
-                <input type="text" id="lastname" placeholder="Enter Last Name">
-                <p>Email</p>
-                <input type="text" id="email" placeholder="Enter Email">
-                <p>Password</p>
-                <input type="password" id="password1" placeholder="Enter Password">
-                <p>Confirm Password</p>
-                <input type="password" id="password2" placeholder="Confirm Your Password">
-                <div id = "button-container">
-                <button class="btn" onclick="submitInfo()">Sign Up</button>
-                </div>
     
+        <h1> Sign Up </h1>
+            <p>First Name</p>
+            <input type="text" id="firstname" placeholder="Enter First Name">
+            <p>Last Name</p>
+            <input type="text" id="lastname" placeholder="Enter Last Name">
+            <p>Email</p>
+            <input type="text" id="email" placeholder="Enter Email">
+            <p>Password</p>
+            <input type="password" id="password1" placeholder="Enter Password">
+            <p>Confirm Password</p>
+            <input type="password" id="password2" placeholder="Confirm Your Password">
+            <div id = "button-container">
+            <button class="btn" onclick="signUp()">Sign Up</button>
+            </div>
+
     </div>
+
 
 <script src=”https://code.jquery.com/jquery-3.2.1.slim.min.js” integrity=”sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN” 
     crossorigin=”anonymous”></script>
@@ -64,4 +71,12 @@
 <script src=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js” integrity=”sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl” 
     crossorigin=”anonymous”></script>
 </body>
+
+
+<script src = "https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src = "https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src = "https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+<!--9.1.3-->
+<script src = "signupCalorie.js"></script>
+
 </html>

@@ -7,21 +7,15 @@
 .navbar{
     height: 100px ;
 }
-.navbar-brand{
-    font-size: 50px !important;
-    font-family: Quantico;
-}
 
-.navbar{
-    height: 100px ;
-}
 .navbar-brand{
-    font-size: 50px !important;
-    font-family: Quantico;
-}
-.navbar-nav{
-    font-size:20px;
-    font-family: 'Quantico', sans-serif;
+  margin:0;
+  font-size: 50px !important;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%,-50%);
+  margin-top: 80;
 }
 .nav-item{
     padding: 20px;
@@ -35,13 +29,15 @@ body {
   
 
 .signup-box {
+    display: grid;
+    margin:auto;
     width: 320px;
     height: 520px;
     background: #343a40;
     color: #fff;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    position: absolute;
+    position: fixed;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 10px 30px;

@@ -4,31 +4,28 @@
 *{
     font-family: Quantico;
 }
-.navbar{
-    height: 100px ;
-}
-.navbar-brand{
-    font-size: 50px !important;
-    
-}
 
 .navbar{
     height: 100px ;
+  
 }
 .navbar-brand{
+    margin:0;
     font-size: 50px !important;
-   
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    margin-top: 80;
 }
-.navbar-nav{
-    font-size:20px;
-    
-}
-.nav-item{
-    padding: 20px;
+
+#wrapper{
+  margin-left:auto;
+  margin-right: auto;
+  width: 960px;
 }
 
 body {
-    margin: 0;
     background-image: url("background.webp");
     background-color: #787A91;
   }
@@ -53,7 +50,7 @@ body {
     height: 450px;
     background: #343a40;
     color: #fff;
-    top: 50%;
+    top: 60%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -73,7 +70,7 @@ body {
   
   h1 {
     margin: 0;
-    padding: 0 0 20px;
+    padding: 0 0 10px;
    
     text-align: center;
     font-size: 22px;
@@ -107,7 +104,7 @@ body {
     padding-bottom: 25px;
   }
 
-  button {
+  .btn {
     border: none;
     width: 100%;
     outline: none;
@@ -125,16 +122,90 @@ body {
     border-style: solid;
   }
 
-  
-  .login-box a{
+  #forgot-pass{
+    float: left;
     text-decoration: none;
     padding: 2px;
-    font-size: 13px;
-    line-height: 20px;
+    border:none;
+    background: none;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+  }
+  
+  #forgot-pass:hover {
+    cursor: pointer;
+    color: #ffc107;
+  }
+  
+  .login-box a{
+   
+    text-decoration: none;
+    padding: 2px;
+    font-size: 14px;
+    line-height: 30px;
     color: white;
   }
   
   .login-box a:hover {
     color: #ffc107;
   }
+
   
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    
+
+  }
+
+  .modal-content {
+    background-color: #343a40 !important;
+    color: white;
+    margin: auto;
+    padding: 20px;
+    /*border: 1px solid rgb(255, 255, 255);*/
+    opacity: 0.99;
+  }
+
+  .close {
+    color: white !important;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #ffc107;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-btn {
+    background: none;
+    border: none;
+    width: 40%;
+    outline: none;
+    height: 30px;
+    background: black;
+    box-shadow: 0 0 20px black;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+
+  .modal-btn:hover {
+    cursor: pointer;
+    background: transparent;
+    border-color: #ffc107;
+    border-style: solid;
+  }
+    
